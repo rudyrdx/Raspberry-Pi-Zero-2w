@@ -54,7 +54,7 @@ sudo apt-get install libc6:armhf libisl23:armhf libmpfr6:armhf libmpc3:armhf lib
 wget http://archive.raspberrypi.org/debian/pool/main/f/firmware-nonfree/firmware-brcm80211_0.43+rpi6_all.deb
 ```
 ```bash
-sudo apt install ./firmware-brcm80211_0.43+rpi6_all.deb -y
+sudo apt install ./firmware-brcm80211_0.43+rpi6_all.deb -y --allow-downgrades
 ```
 ```bash
 sudo mv /lib/firmware/cypress /lib/firmware/cypress.bak  # 
